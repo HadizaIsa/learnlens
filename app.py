@@ -164,7 +164,7 @@ st.markdown("""
 st.markdown("""
 <div class="hero">
 <h1>🎯 LearnLens</h1>
-<p>Pre-Class Learning Diagnostic — know what students need before the lesson starts.</p>
+<p>Pre-Class Learning Diagnostic: know what students need before the lesson starts.</p>
 </div>
 """, unsafe_allow_html=True)
 
@@ -311,12 +311,12 @@ else:
     st.divider()
     st.markdown("### Learning-state logic")
     st.markdown("""
-    - **🟢 Ready:** 80–100% — prerequisite understanding is demonstrated.
-    - **🟡 Needs Reinforcement:** 50–79% — some prerequisite gaps are present.
-    - **🔴 Needs Support:** below 50% — significant difficulty is indicated.
+    - **🟢 Ready:** 80–100%: prerequisite understanding is demonstrated.
+    - **🟡 Needs Reinforcement:** 50–79%: some prerequisite gaps are present.
+    - **🔴 Needs Support:** below 50%: significant difficulty is indicated.
     """)
 
     st.info(
-        "**MVP principle:** LearnLens is not trying to replace the instructor. "
+        " LearnLens is not trying to replace the instructor. "
         "It gives the instructor timely evidence about what students need before class."
     )
