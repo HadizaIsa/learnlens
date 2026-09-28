@@ -1,4 +1,4 @@
-# LearnLens — Rubies Code School Competition MVP
+# LearnLens
 
 A small working prototype of a Pre-Class Learning Diagnostic System.
 
@@ -29,7 +29,7 @@ streamlit run app.py
 
 The app opens in your browser.
 
-## Competition demo
+## Demo
 
 1. Open **Instructor Dashboard** first.
 2. Show the class summary and concept gaps.
@@ -38,10 +38,7 @@ The app opens in your browser.
 5. Submit.
 6. Return to **Instructor Dashboard** and show that the class analysis updates.
 
-## Important MVP scope
+## Note
 
 This prototype intentionally uses one lesson and in-memory demo data. It is designed to demonstrate the core product value quickly. Authentication, persistent databases, multiple courses, teacher accounts, question banks, and advanced AI recommendations can be added after the competition.
 
-## Suggested pitch
-
-"LearnLens gives instructors a picture of what students need before class begins. Instead of discovering learning gaps halfway through a lesson, an instructor can use a three-to-five-question diagnostic to identify prerequisite gaps and adapt the next class accordingly."
